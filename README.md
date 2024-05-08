@@ -55,5 +55,5 @@ Before the countdown reaches zero, you can quit any time by pressing
 - By turning on the roulette mode and accepting the terms, you AGREE that you
   have been warned of the consequences of turning on the roulette mode.
 - By reading the terms and warnings you agree that you acknowledge that you can
-  quit the game at any time by pressing <kbd>q</kbd> before the countdown
+  quit the game at any time by pressing <kbd>Ctrl</kbd> + <kbd>c</kbd> before the countdown
   reaches 0.
