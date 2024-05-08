@@ -1,9 +1,6 @@
 # Rock 🪨, Paper 🧻, Scissors ✂️ , Russian Roulette 🔪 Edition!
 
 > [!WARNING]
-> Don't play the game with russian roulette mode right now. I forgot to add countdown!!!!
-
-> [!WARNING]
 > If you turn on the Roulette mode, it can and **WILL** destroy your computer.
 > You are on your own if you do so. I am not responsible if you lose.
 > By default, it is off. You will be asked to turn it on at the start of the game.
