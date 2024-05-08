@@ -43,7 +43,7 @@ a countdown which when it reaches zero, the deletion will start and cannot be
 stopped.
 
 Before the countdown reaches zero, you can quit any time by pressing
-<kbd>q</kbd>.
+<kbd>Ctrl</kbd> + <kbd>c</kbd>.
 
 ## Terms and Conditions
 
